@@ -1,0 +1,89 @@
+i.icon-dark {
+    color: black;
+}
+
+#fondo{
+	 background-image: url(../img/water.jpg);
+	 z-index: 1;
+	 background-repeat: no-repeat;
+	}
+
+.slidcontent{
+	margin-top: 10px;
+}
+
+#log{
+	margin-left: 3%;
+}
+
+
+#productos, #contacto , #pie{
+	border-top: 6px solid rgba(38, 167, 206, 0.32);
+}
+
+.productos .productos-holder {
+    clear: both;
+    text-align: center;
+}
+
+
+
+.productos img {
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+.productos .card{
+	width: 25%;
+	    display: inline-block;
+}
+section hr {
+    width: 40px;
+    margin-bottom: 45px;
+    border: 1px solid
+}
+
+section {
+    padding: 4% 0 4% 0;
+}
+section#acercade {
+    height: 571px;
+}
+
+/*** RESPONSIVO ***/
+
+@media only screen and (max-width: 992px) {
+    header ul.side-nav li a {
+        font-size: 1.7rem
+    }
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .productos img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .productos img {
+        width: 100%;
+    }
+	
+	
+	@media only screen and (max-width: 767px) {
+    .productos .card {
+        width: 40%;
+		
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .productos .card {
+        width: 100%;
+    }
